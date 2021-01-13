@@ -1,0 +1,237 @@
+/*font-family: 'Anton', sans-serif;*/
+/*font-family: 'Nunito', sans-serif;*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+/*nav*/
+
+nav {
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: rgba(217, 79, 48, .5);
+}
+
+.nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+.nav ul li {
+    padding: 25px 40px;
+    line-height: 25px;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+}
+
+a {
+    padding: 25px 30px;
+    line-height: 25px;
+    font-size: 25px;
+    color: #090B0D;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+nav li:hover {
+    padding: 25px 40px;
+    line-height: 25px;
+    border-bottom: 2px solid #0D0D0D;
+}
+
+/*header*/
+header {
+    position: relative;
+    height: 100vh;
+    background-color: #F2CB05;
+}
+
+header img {
+    position: absolute;
+    width: 30%;
+    bottom: 0;
+    right: 0;
+
+}
+
+header h1 {
+    position: absolute;
+    top: 45%;
+    margin-left: 5%;
+    font-family: 'Anton', sans-serif;
+    font-size: 45px;
+    letter-spacing: 1px;
+    color: #090B0D;
+}
+
+header h2 {
+    position: absolute;
+    top: 55%;
+    margin-left: 5%;
+}
+
+/*about*/
+
+#about {
+    position: relative;
+    height: 100vh;
+    background-color: #9BBFBF;
+}
+
+.que {
+    position: absolute;
+    top: 20%;
+    left: 1.5%;
+    font-size: 23px;
+    font-weight: bold;
+
+}
+
+.text-1 {
+    position: absolute;
+    top: 35%;
+    left: 1.5%;
+    font-size: 20px;
+
+}
+
+.list {
+    position: absolute;
+    top: 60%;
+    left: 1.5%;
+    font-size: 18px;
+    line-height: 150%;
+    list-style: none;
+}
+
+.list p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#about h2 {
+    padding: 30px;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#about img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 40%;
+}
+
+/*oferta*/
+
+#offer {
+    position: relative;
+    height: 100vh;
+    background-color: #F2CB05;
+    background-image: url(../images/kurier.png);
+    background-repeat: no-repeat;
+    background-position: 2% 100%;
+    overflow: hidden;
+}
+
+#offer h2 {
+    padding-top: 30px;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+#offer p {
+    position: absolute;
+    left: 47%;
+    right: 1.5%;
+    top: 20%;
+    font-size: 20px;
+}
+
+/*cennik*/
+
+#price {
+    float: left;
+    width: 70%;
+    height: 50vh;
+    background-color: #9BBFBF;
+}
+
+#price h2 {
+    padding: 20px 20px 20px 10px;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin: 20px 10px;
+    text-align: center;
+
+}
+
+#price p {
+    font-size: 20px;
+    text-align: center;
+}
+
+/*kontaakt*/
+
+#contact {
+    background-color: rgb(217, 79, 48);
+    float: right;
+    width: 30%;
+    height: 50vh;
+}
+
+#contact h2 {
+    padding: 30px;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+#contact p {
+    font-size: 20px;
+    margin-left: 7%;
+}
+
+#contact h2 + p {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #090B0D;
+}
+
+#contact p + p {
+    margin-bottom: 5px;
+}
+
+#contact span {
+    font-weight: bold;
+}
+
+/*footer*/
+
+footer {
+    background-color: #F2CB05;
+    height: 25%;
+    line-height: 50px;
+    text-align: center;
+}
